@@ -1105,21 +1105,28 @@ p {
   color: var(--cyan);
 }
 
-.socials {
-  display: flex;
-  gap: 10px;
-  margin-top: 18px;
+.socials{
+  display:flex;
+  gap:15px;
 }
 
-.socials a {
-  display: grid;
-  width: 40px;
-  height: 40px;
-  place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 999px;
-  color: var(--white);
-  background: rgba(255, 255, 255, 0.06);
+.socials a{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  background:#1b3b7a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-size:20px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.socials a:hover{
+  background:#00bfff;
+  transform:translateY(-3px);
 }
 
 .newsletter {
